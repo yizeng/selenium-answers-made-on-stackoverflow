@@ -1,4 +1,5 @@
-# Question Link:: http://stackoverflow.com/questions/17740502/
+# Question:: how to select all the extjs dropdown values in selenium webdriver
+# Link:: http://stackoverflow.com/questions/17740502
 # Environment:: Linux Mint 16, Ruby 2.1.1, Selenium 2.41.0, PhantomJS 1.9.7
 
 require 'selenium-webdriver'

@@ -1,4 +1,5 @@
-# Question Link:: http://stackoverflow.com/questions/17674909/
+# Question:: How to check resolution of browser when running selenium webdriver?
+# Link:: http://stackoverflow.com/questions/17674909
 # Environment:: Linux Mint 16, Ruby 2.1.1, Selenium 2.41.0, PhantomJS 1.9.7
 
 require 'selenium-webdriver'

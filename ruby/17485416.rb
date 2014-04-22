@@ -1,4 +1,5 @@
-# Question Link:: http://stackoverflow.com/questions/17485416/
+# Question:: How to get element's text without retrieving the text from its descendant
+# Link:: http://stackoverflow.com/questions/17485416
 # Environment:: Linux Mint 16, Ruby 2.1.1, Selenium 2.41.0, PhantomJS 1.9.7
 
 require 'selenium-webdriver'
