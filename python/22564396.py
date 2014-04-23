@@ -4,8 +4,10 @@ __environment__ = "Linux Mint 16, Python 2.7.5+, Selenium 2.41.0, PhantomJS 1.9.
 
 from selenium import webdriver
 
-DEMO_PAGE = '''data:text/html,
-    <img src="" alt="" title="foobar">'''
+DEMO_PAGE = '''
+	data:text/html,
+	<img src="" alt="" title="foobar">
+'''
 
 driver = webdriver.PhantomJS()
 driver.get(DEMO_PAGE)
