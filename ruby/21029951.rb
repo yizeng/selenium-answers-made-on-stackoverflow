@@ -26,7 +26,7 @@ DEMO_PAGE = <<-eos
   </table>
 eos
 
-driver = Selenium::WebDriver.for :chrome
+driver = Selenium::WebDriver.for :phantomjs
 driver.get(DEMO_PAGE)
 
 username = 'user2'
