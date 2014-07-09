@@ -1,6 +1,6 @@
 # Question:: Webdriver in Ruby, add more test
 # Link:: http://stackoverflow.com/questions/19233497
-# Environment:: Windows 7, Ruby 2.0.0, Selenium 2.41.0, Firefox 28
+# Environment:: Windows 7, Ruby 2.0.0, Selenium 2.42.0, Firefox 24.6.0 ESR
 
 require 'selenium-webdriver'
 require 'test/unit'

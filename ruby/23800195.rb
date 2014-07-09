@@ -1,6 +1,6 @@
 # Question:: Auto download PDF in Firefox
 # Link:: http://stackoverflow.com/questions/23800195
-# Environment:: Windows 7, Ruby 2.0.0, Selenium 2.42.0, Firefox 27.0.1
+# Environment:: Windows 7, Ruby 2.0.0, Selenium 2.42.0, Firefox 24.6.0 ESR
 
 require 'selenium-webdriver'
 

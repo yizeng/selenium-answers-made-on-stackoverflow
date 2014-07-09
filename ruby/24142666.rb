@@ -9,3 +9,4 @@ site_with_untrusted_certificate = ARGV[0]
 driver = Selenium::WebDriver.for :ie
 driver.get(site_with_untrusted_certificate)
 driver.get("javascript:document.getElementById('overridelink').click()")
+puts "driver.title = '#{driver.title}'"
