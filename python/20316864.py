@@ -17,3 +17,5 @@ link = driver.find_element_by_css_selector("#show_alert")
 ActionChains(driver).context_click(link).perform()
 
 print "Alert text: " + driver.switch_to_alert().text
+
+driver.quit()

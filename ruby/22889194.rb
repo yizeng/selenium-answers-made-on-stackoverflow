@@ -9,6 +9,7 @@ class PageObjects
    def startup
     @browser = Selenium::WebDriver.for :firefox
     @browser.manage.window.maximize
+    @browser.quit
    end
 end
 

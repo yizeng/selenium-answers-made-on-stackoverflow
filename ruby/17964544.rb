@@ -12,3 +12,5 @@ puts "Background colour before hovering = '#{btn_ask_question.css_value('backgro
 
 driver.action.move_to(btn_ask_question).perform
 puts "Background colour after hovering = '#{btn_ask_question.css_value('background-color')}'"
+
+driver.quit

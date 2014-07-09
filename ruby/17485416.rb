@@ -22,3 +22,5 @@ div_only_text = div.text.sub!(label.text, '').strip
 puts "div.text = '#{div.text}'"
 puts "label.text = '#{label.text}'"
 puts "div_only_text = '#{div_only_text}'"
+
+driver.quit

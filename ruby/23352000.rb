@@ -18,3 +18,5 @@ input.send_keys('25')
 
 input_value = input.attribute('value')
 puts "input_value = '#{input_value}'"
+
+driver.quit

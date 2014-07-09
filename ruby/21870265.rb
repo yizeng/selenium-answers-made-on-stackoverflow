@@ -27,3 +27,5 @@ driver.get(DEMO_PAGE)
 
 link = driver.find_element(:css => "#SearchMenu a[onclick*='store.net/test']")
 puts "link.text = '#{link.text}'"
+
+driver.quit

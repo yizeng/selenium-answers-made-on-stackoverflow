@@ -26,3 +26,5 @@ try:
 
 except TimeoutException:
 	print "no alert"
+
+browser.quit()

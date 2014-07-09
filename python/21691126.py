@@ -16,3 +16,5 @@ driver.get(DEMO_PAGE)
 
 print driver.find_element_by_xpath(".//input[contains(@onclick, '1 Bedroom Deluxe')]").get_attribute("onclick")
 print driver.find_element_by_css_selector("input[onclick*='1 Bedroom Deluxe']").get_attribute("onclick")
+
+driver.quit()

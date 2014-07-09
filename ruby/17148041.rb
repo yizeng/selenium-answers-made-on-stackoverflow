@@ -9,4 +9,6 @@ class TC_Login < Test::Unit::TestCase
   @driver = Selenium::WebDriver.for :firefox
   @driver.get "http:test.com"
   puts "@driver.title = '#{@driver.title}'"
+
+  @driver.quit
 end

@@ -17,3 +17,5 @@ link_by_xpath = driver.find_element(:xpath => ".//a[contains(@href, 'settings/ca
 
 puts "link_by_css.text = '#{link_by_css.text}'"
 puts "link_by_xpath.text = '#{link_by_xpath.text}'"
+
+driver.quit

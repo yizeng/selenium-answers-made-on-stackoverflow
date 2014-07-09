@@ -26,3 +26,5 @@ end
 # check selected value
 combo_input = driver.find_element(:css => "#simpleCombo .x-form-text")
 puts "Selected value = '#{combo_input.attribute('value')}'"
+
+driver.quit

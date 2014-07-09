@@ -19,3 +19,5 @@ driver.get(DEMO_PAGE)
 
 paragraph = driver.find_element(:xpath => ".//div[@class='content1']/div[@class='bold2']/following-sibling::p")
 puts "div.text = '#{paragraph.text}'"
+
+driver.quit

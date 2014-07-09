@@ -22,3 +22,5 @@ driver.get(DEMO_PAGE)
 
 nearest_table = driver.find_element(:xpath => "(.//font[@color='#FFFFFF' and text()='some probably unique text']/ancestor::table)[1]")
 puts "nearest_table.attribute('innerHTML'):\n#{nearest_table.attribute('innerHTML')}"
+
+driver.quit

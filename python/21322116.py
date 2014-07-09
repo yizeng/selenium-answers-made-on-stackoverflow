@@ -22,3 +22,5 @@ radio_srf = driver.find_element_by_xpath(".//input[@type='radio' and @value='SRF
 ActionChains(driver).double_click(radio_srf).perform()
 
 print 'radio_srf.is_selected: ' + str(radio_srf.is_selected())
+
+driver.quit()

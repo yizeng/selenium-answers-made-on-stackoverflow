@@ -24,3 +24,5 @@ results.each do|result|
 end
 
 puts "driver.title = '#{driver.title}'"
+
+driver.quit

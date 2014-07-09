@@ -14,3 +14,5 @@ driver.get(DEMO_PAGE)
 
 print 'Title of img:\n'
 print driver.find_element_by_xpath("//img").get_attribute("title")
+
+driver.quit()

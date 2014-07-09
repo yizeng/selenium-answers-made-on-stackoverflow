@@ -31,3 +31,5 @@ element_by_xpath = driver.find_element_by_xpath(".//*[@id='nav-global']//a[conta
 
 print "element_by_css_selector.text: " + element_by_css_selector.text
 print "element_by_xpath.text: " + element_by_xpath.text
+
+driver.quit()

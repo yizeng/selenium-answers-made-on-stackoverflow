@@ -22,3 +22,5 @@ link_by_xpath = driver.find_element(:xpath, "(//a[starts-with(@id, 'ui-id-')])[2
 
 puts "link_by_css.text = '#{link_by_css.text}'"
 puts "link_by_xpath.text = '#{link_by_xpath.text}'"
+
+driver.quit

@@ -26,3 +26,5 @@ select = driver.find_element(:tag_name => 'select')
 td_only_text = td.text.sub!(select.text, '').strip
 
 puts "td_only_text = '#{td_only_text}'"
+
+driver.quit

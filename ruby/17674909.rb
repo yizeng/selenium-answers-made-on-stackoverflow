@@ -17,3 +17,5 @@ puts "Resized to = '#{driver.manage.window.size}'"
 
 driver.manage.window.maximize
 puts "Maxiumzed to = '#{driver.manage.window.size}'"
+
+driver.quit

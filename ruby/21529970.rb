@@ -30,3 +30,5 @@ rescue Exception => e
 end
 
 browser.div(:class => 'dd-field').click
+
+browser.quit

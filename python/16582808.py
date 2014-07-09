@@ -9,3 +9,5 @@ driver.get('http://www.helloworld.com/')
 
 print 'Text of .foot:\n'
 print driver.find_element_by_class_name('footer').text
+
+driver.quit()

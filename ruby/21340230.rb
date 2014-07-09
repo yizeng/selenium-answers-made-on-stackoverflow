@@ -15,3 +15,5 @@ driver.get(DEMO_PAGE)
 element = driver.find_element(:xpath => ".//div[./div/span[@email='noreply@example.com']]")
 
 puts "element.id = '#{element.attribute('id')}'"
+
+driver.quit

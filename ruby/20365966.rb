@@ -17,3 +17,5 @@ driver.get(DEMO_PAGE)
 
 element = driver.find_element(:xpath => "//*[@class='tab-strip-text' and text()='Reports']")
 puts "element.text = '#{element.text}'"
+
+driver.quit

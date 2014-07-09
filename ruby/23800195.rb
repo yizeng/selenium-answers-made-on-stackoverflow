@@ -18,3 +18,5 @@ profile["plugin.scan.plid.all"] = false
 
 driver = Selenium::WebDriver.for :firefox, :profile => profile
 driver.get('http://static.mozilla.com/moco/en-US/pdf/mozilla_privacypolicy.pdf')
+
+driver.quit

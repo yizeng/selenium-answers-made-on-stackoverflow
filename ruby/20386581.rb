@@ -19,3 +19,5 @@ driver.get(DEMO_PAGE)
 
 element = driver.find_element(:css => "#ctrlNotesWindow .notesData > .notesDate")
 puts "element.text = '#{element.text}'"
+
+driver.quit

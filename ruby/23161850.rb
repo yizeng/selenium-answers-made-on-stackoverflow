@@ -17,3 +17,5 @@ driver.execute_script('arguments[0].value = "1";', input)
 
 input_value = input.attribute('value')
 puts "input_value = '#{input_value}'"
+
+driver.quit

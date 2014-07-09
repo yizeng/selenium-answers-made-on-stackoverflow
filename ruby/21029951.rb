@@ -36,3 +36,4 @@ row_by_xpath = driver.find_element(:xpath => ".//tbody[@id='usersForm:usersTable
 puts "row_by_css.text = '#{row_by_css.text}'"
 puts "row_by_xpath.text = '#{row_by_xpath.text}'"
 
+driver.quit

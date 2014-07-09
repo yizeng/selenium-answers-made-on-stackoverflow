@@ -9,3 +9,5 @@ driver.set_window_size(1400,1000)
 
 print "Window size:\n"
 print driver.get_window_size()
+
+driver.quit()

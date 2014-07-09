@@ -30,3 +30,5 @@ link_by_xpath = driver.find_element(:xpath => ".//div[@class='charselect']//a[@c
 
 puts "link_by_css.text = '#{link_by_css.text}'\n\n"
 puts "link_by_xpath.text = '#{link_by_xpath.text}'"
+
+driver.quit

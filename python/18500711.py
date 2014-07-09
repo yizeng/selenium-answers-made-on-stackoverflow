@@ -23,3 +23,5 @@ captcha = driver.find_element_by_id("captcha")
 captcha.send_keys(captcha_value)
 
 print "captcha_value = " + captcha.get_attribute('value')
+
+driver.quit()

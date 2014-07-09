@@ -19,3 +19,5 @@ element_by_xpath = driver.find_element_by_xpath(".//select[@id='Proc#fr#2-1-111'
 
 print "element_by_css_selector.get_attribute('optionsdict'): " + element_by_css_selector.get_attribute('optionsdict')
 print "element_by_xpath.get_attribute('optionsdict'): " + element_by_xpath.get_attribute('optionsdict')
+
+driver.quit()
