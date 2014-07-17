@@ -4,6 +4,7 @@ __environment__ = "Windows 7, Python 2.7.5, Selenium 2.42.1, Chrome 35, ChromeDr
 
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pprint
@@ -24,7 +25,7 @@ pricing_link.click()
 
 # then deal with the data you want
 price_table = WebDriverWait(driver, 10).until(
-	lambda driver : driver.find_element_by_css_selector(".priceAvailContainer tbody")
+	EC.presence_of_element_located((By.CSS_SELECTOR, ".priceAvailContainer tbody"))
 )
 print 'price_table.text: ' + price_table.text
 
